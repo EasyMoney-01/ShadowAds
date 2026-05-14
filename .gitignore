@@ -1,0 +1,43 @@
+# Gradle, Maven, Eclipse, Git
+.gradle
+.idea
+*.iml
+*.log
+target/
+.classpath
+.c9/
+*.jar
+*.jmods
+.DS_Store
+.APK_VERSIONS.txt
+output.json
+*.apk
+*.ap_
+*.aab
+
+# Build output
+build/
+out/
+gen/
+dist/
+
+# Android Studio specific files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/dictionaries/
+.idea/libraries/
+.idea/shelf
+
+# Signing
+*.jks
+*.keystore
+
+# Local configuration file
+local.properties
+
+# Private Keys
+private.xml
+
+# Visual Studio Code
+.vscode/
