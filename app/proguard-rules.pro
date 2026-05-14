@@ -1,0 +1,6 @@
+-keep class com.unity3d.ads.** { *; }
+-dontwarn com.unity3d.ads.**
+-keep class com.shadowads.** { *; }
+-keepattributes SourceFile,LineNumberTable
+-renamesourcefileattribute SourceFile
+-keep class * implements com.shadowads.AdListener { *; }

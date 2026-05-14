@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shadow Ads</string>
+    <string name="status_title">● STATUS</string>
+    <string name="status_ready">Ready to Play Ads</string>
+    <string name="status_description">Ads will start automatically</string>
+    <string name="ads_played_label">Ads Played</string>
+    <string name="session_time_label">Session Time</string>
+    <string name="play_ad_button">▶ Play Ad Now</string>
+    <string name="stop_button">■ Stop Auto-Play</string>
+    <string name="powered_by">🎯 Powered by Unity Ads</string>
+    <string name="ads_count_zero">0</string>
+    <string name="session_time_zero">0s</string>
+    <string name="ad_playing">Ad Playing...</string>
+    <string name="watch_advertisement">Please watch the full advertisement</string>
+    <string name="ad_completed">Ad Completed!</string>
+    <string name="next_ad_in_seconds">Next ad in 2 seconds...</string>
+    <string name="ad_error">Ad Error</string>
+    <string name="retrying_in_seconds">Retrying in 3 seconds...</string>
+    <string name="auto_play_enabled">Auto-Play Enabled</string>
+    <string name="auto_play_disabled">Auto-Play Disabled</string>
+    <string name="tap_play_manually">Tap \"Play Ad Now\" to play ads manually</string>
+</resources>
