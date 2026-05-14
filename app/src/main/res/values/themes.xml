@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Application Theme -->
+    <style name="Base.Theme.ShadowAds" parent="Theme.MaterialComponents.Dark.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/primary_black</item>
+        <item name="colorPrimaryVariant">@color/glass_dark</item>
+        <item name="colorSecondary">@color/accent_silver</item>
+        <item name="colorSecondaryVariant">@color/accent_dark_gray</item>
+        
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/primary_black</item>
+        <item name="android:navigationBarColor">@color/primary_black</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        
+        <!-- Window background -->
+        <item name="android:windowBackground">@color/primary_black</item>
+        
+        <!-- Enforce dark mode -->
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+
+    <style name="Theme.ShadowAds" parent="Base.Theme.ShadowAds" />
+
+    <!-- Glass Card Style -->
+    <style name="GlassCard">
+        <item name="android:background">@drawable/glass_card_bg</item>
+        <item name="android:padding">24dp</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <!-- Glass Button Style -->
+    <style name="GlassButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/glass_button_bg</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:elevation">6dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Premium Text Styles -->
+    <style name="PremiumTitle">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <style name="PremiumSubtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="StatusText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DescriptionText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+</resources>
